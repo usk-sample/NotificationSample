@@ -30,3 +30,5 @@ center.requestAuthorization(options: [.alert, .sound, .badge, .provisional]) { g
     // Provisional authorization granted.
 }
 ```
+## LICENSE
+[LICENSE](LICENSE)
