@@ -22,6 +22,7 @@
 		A8897DED26A15DF20055DE51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8897DEF26A15DF20055DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8897DF526A15E050055DE51 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A8897DF726A161FD0055DE51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		A8897DDA26A15DF10055DE51 = {
 			isa = PBXGroup;
 			children = (
+				A8897DF726A161FD0055DE51 /* README.md */,
 				A8897DE526A15DF10055DE51 /* NotificationSample */,
 				A8897DE426A15DF10055DE51 /* Products */,
 			);
