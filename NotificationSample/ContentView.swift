@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Provisional Authorization")
+                .padding()
+            Button.init("Schedule Notification") {
+                NotificationManager.shared.scheduleNotification()
+            }
+
+        }.onAppear {
+            NotificationManager.shared.requestAuthorization()
+        }
+            
     }
 }
 

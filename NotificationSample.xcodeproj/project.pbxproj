@@ -11,6 +11,7 @@
 		A8897DE926A15DF10055DE51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8897DE826A15DF10055DE51 /* ContentView.swift */; };
 		A8897DEB26A15DF20055DE51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8897DEA26A15DF20055DE51 /* Assets.xcassets */; };
 		A8897DEE26A15DF20055DE51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8897DED26A15DF20055DE51 /* Preview Assets.xcassets */; };
+		A8897DF626A15E050055DE51 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8897DF526A15E050055DE51 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A8897DEA26A15DF20055DE51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8897DED26A15DF20055DE51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8897DEF26A15DF20055DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8897DF526A15E050055DE51 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				A8897DE626A15DF10055DE51 /* NotificationSampleApp.swift */,
 				A8897DE826A15DF10055DE51 /* ContentView.swift */,
+				A8897DF526A15E050055DE51 /* NotificationManager.swift */,
 				A8897DEA26A15DF20055DE51 /* Assets.xcassets */,
 				A8897DEF26A15DF20055DE51 /* Info.plist */,
 				A8897DEC26A15DF20055DE51 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8897DF626A15E050055DE51 /* NotificationManager.swift in Sources */,
 				A8897DE926A15DF10055DE51 /* ContentView.swift in Sources */,
 				A8897DE726A15DF10055DE51 /* NotificationSampleApp.swift in Sources */,
 			);
