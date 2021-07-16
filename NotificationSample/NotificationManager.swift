@@ -37,6 +37,7 @@ extension NotificationManager {
         content.subtitle = "subtitle"
         content.body = "body"
         
+        //after 10 seconds
         let trigger = UNTimeIntervalNotificationTrigger.init(timeInterval: 10, repeats: false)
         
         let request = UNNotificationRequest.init(identifier: "id", content: content, trigger: trigger)
